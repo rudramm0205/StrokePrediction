@@ -1,1 +1,6 @@
 # StrokePrediction
+By implementing various Machine Learning algorithms, I have tried to predict the factors which are main causes of stroke in an individual from the dataset.
+First step comprised of Data Processing and Data Cleaning and removing NULL values from the dataset.
+I performed Exploratory Data Analysis while comparing Multiple Variables.
+3 Machine learning Algorithms were implemented: Logistic Regression, Decision Tree Classifier, Random Forest Classifier.
+As we can analyse from the Results, Random Forest Classifier algorithm is the best fitted model for this dataset, so we can say that patients having older age, High Glucose Level and High bmi values have the highest probability of getting a Stroke. The dataset was imbalanced and to balance the dataset we had to use the SMOTE technique which equally splits the predictor variable into 2 halves.As we have seen from this data, older-aged patients with high glucose levels and high bmi have high probability of getting a stroke. There is no plausible evidence that patients having a heart disease will have a high probability of having a Stroke.There is also some evidence that work lifestyle also has a high probability when it comes to stroke in a patient.
